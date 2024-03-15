@@ -1,10 +1,9 @@
 import { SharedEntity } from "./SharedEntity";
 
-export class Customer extends SharedEntity {
-  code!: string;
+export class Assistant extends SharedEntity {
   name!: string;
-  network!: string;
   email!: string;
+  phone!: number;
   password!: string;
   avatar_url!: string;
 }
